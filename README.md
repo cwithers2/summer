@@ -15,17 +15,17 @@ Given a body of text, _summer_ attempts to find the most important sentences. Th
     <th>Description</th>
   </tr>
   <tr>
-    <td>`filename`</td>
+    <td>filename</td>
     <td>A file with text to summarize (Optional).<br/>
         Input is read from stdin if `filename` is ommitted.</td>
   </tr>
   <tr>
-    <td>`-n NUM`, `--num NUM`</td>
+    <td>-n NUM, --num NUM</td>
     <td>The number of sentences to print (Optional).<br/>
         Default is 5; 0 prints all.</td>
   </tr>
   <tr>
-    <td>`-s STOP`, `--stop STOP`</td>
+    <td>-s STOP, --stop STOP</td>
     <td>A file with stopwords to load (Optional).<br/>
         If ommitted, all terms are processed.</td>
   </tr>
