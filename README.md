@@ -5,6 +5,9 @@ Given a body of text, _summer_ attempts to find the most important sentences. Th
 
 **NOTE**: In an attempt to improve readability, the printed sentences are also sorted by their occurance in the original text.
 
+## Dependencies
+- `python3-nltk`
+
 ## Usage
 
     summer.py [-h] [-n NUM] [-s STOP] [filename]
