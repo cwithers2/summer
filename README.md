@@ -8,6 +8,19 @@ Given a body of text, _summer_ attempts to find the most important sentences. Th
 ## Dependencies
 - `python3-nltk`
 
+In addition to `python3-nltk` you need the `punkt` tokenizer they provide.
+
+The following command installs the the tokenizer in the directory $HOME/nltk_data:
+    $ python3 nltk.downloader punkt
+
+Use these commands to install the tokenizer as an administrator:
+
+|OS     |command                                                        |
+|-------|---------------------------------------------------------------|
+|Windows|`python -m nltk.downloader -d C:\nltk_data punkt`              |
+|Mac    |`python -m nltk.downloader -d /usr/local/share/nltk_data punkt`|
+|Unix   |`python -m nltk.downloader -d /usr/share/nltk_data punkt`      |
+
 ## Usage
 
     summer.py [-h] [-n NUM] [-s STOP] [filename]
