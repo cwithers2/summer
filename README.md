@@ -8,7 +8,7 @@ Given a body of text, _summer_ attempts to find the most important sentences. Th
 ## Dependencies
 - `python3-nltk`
 
-In addition to `python3-nltk` you need the `punkt` tokenizer they provide.
+In addition to `python3-nltk` you need the `punkt` tokenizer they provide via thier custom downloader.
 
 The following command installs the the tokenizer in the directory $HOME/nltk_data:
 
