@@ -11,6 +11,7 @@ Given a body of text, _summer_ attempts to find the most important sentences. Th
 In addition to `python3-nltk` you need the `punkt` tokenizer they provide.
 
 The following command installs the the tokenizer in the directory $HOME/nltk_data:
+
     $ python3 nltk.downloader punkt
 
 Use these commands to install the tokenizer as an administrator:
